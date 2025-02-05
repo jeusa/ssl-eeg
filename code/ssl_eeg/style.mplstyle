@@ -1,0 +1,44 @@
+# Pacoty, https://github.com/dhaitz/matplotlib-stylesheets
+# Seaborn common parameters
+# .15 = dark_gray
+# .8 = light_gray
+figure.facecolor: white
+text.color: .15
+
+# legend
+legend.frameon: False
+legend.numpoints: 1
+legend.scatterpoints: 1
+
+xtick.direction: out
+ytick.direction: out
+xtick.color: .15
+ytick.color: .15
+axes.labelcolor: .15
+axes.axisbelow: True
+grid.linestyle: -
+
+# lineplots
+lines.solid_capstyle: round
+lines.marker : "X"
+lines.markersize: 5
+
+# Seaborn darkgrid parameters
+axes.grid: True
+axes.facecolor: f3f3f8 # light violette-gray
+axes.edgecolor: white
+axes.linewidth: 0
+grid.color: white
+xtick.major.size: 0
+ytick.major.size: 0
+xtick.minor.size: 0
+ytick.minor.size: 0
+
+# font
+# font.family: sans-serif
+# font.sans-serif: Liberation Sans, Arial, Helvetica, Helvetica Neue, DejaVu Sans, Bitstream Vera Sans, sans-serif
+font.size: 15
+
+# colors
+axes.prop_cycle: cycler('color', ['0F4C81', '00b18a', 'F0C05A', 'FF6F61', 'B163A3', '7BC4C4'])
+image.cmap: RdPu

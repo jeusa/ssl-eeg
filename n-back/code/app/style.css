@@ -1,0 +1,56 @@
+body {
+  font-family: Verdana;
+  background-color: lightgray;
+  font-size: 1.5em;
+}
+
+#main_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+p {
+  font-size: 3em;
+}
+
+button {
+  padding: 0.3em 1em;
+  width: 20vw;
+  margin: 1em;
+  font-size: 1em;
+  color: white;
+  background-color: black;
+}
+
+button:hover {
+  background-color: #4d4c4c;
+}
+
+button:active {
+  color: black;
+  background-color: white;
+}
+
+#enter-n {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  width: 3em;
+  padding: 0.2em;
+  margin-left: 0.5em;
+  font-size: 0.7em;
+}
+
+.correct {
+  background-color: #b3cec8;
+}
+
+.wrong {
+  background-color: #ceb5b5;
+}
